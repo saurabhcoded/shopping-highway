@@ -1,0 +1,22 @@
+.category {
+  margin: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.category:hover {
+  transform: scale(1.1);
+}
+.categoryIcon {
+  width: 80px;
+}
+.categoryText {
+  font-size: 15px;
+}
+@media only screen and (max-width: 600px) {
+  .categoryIcon {
+    width: 50px;
+  }
+  .categoryText {
+    font-size: 12px;
+  }
+}
